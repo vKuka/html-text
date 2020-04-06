@@ -60,6 +60,8 @@
             
                 <li class="parent " data-name="PIXI.HTMLText#height"><a href="PIXI.HTMLText.html#height">height</a></li>
             
+                <li class="parent " data-name="PIXI.HTMLText#resolution"><a href="PIXI.HTMLText.html#resolution">resolution</a></li>
+            
                 <li class="parent " data-name="PIXI.HTMLText#style"><a href="PIXI.HTMLText.html#style">style</a></li>
             
                 <li class="parent " data-name="PIXI.HTMLText#text"><a href="PIXI.HTMLText.html#text">text</a></li>
@@ -80,11 +82,11 @@
             
             <span class="subtitle">Methods</span>
             
+                <li class="parent  " data-name="PIXI.HTMLText#_render"><a href="PIXI.HTMLText.html#_render">_render</a></li>
+            
                 <li class="parent  " data-name="PIXI.HTMLText#destroy"><a href="PIXI.HTMLText.html#destroy">destroy</a></li>
             
                 <li class="parent  " data-name="PIXI.HTMLText#getLocalBounds"><a href="PIXI.HTMLText.html#getLocalBounds">getLocalBounds</a></li>
-            
-                <li class="parent  " data-name="PIXI.HTMLText#render"><a href="PIXI.HTMLText.html#render">render</a></li>
             
                 <li class="parent  " data-name="PIXI.HTMLText#updateText"><a href="PIXI.HTMLText.html#updateText">updateText</a></li>
             
@@ -396,6 +398,61 @@
             
 <dt>
     <div class="nameContainer">
+        <h4 class="name" id="resolution">
+            <a class="share-icon" href="#resolution"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">resolution</span>
+            <span class="type-signature type">number</span>
+            
+            
+            
+            
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>The resolution / device pixel ratio of the canvas.
+This is set to automatically match the renderer resolution by default, but can be overridden by setting manually.</p>
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy"><li>1</li></ul></dd>
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
         <h4 class="name" id="style">
             <a class="share-icon" href="#style"><span class="glyphicon glyphicon-link"></span></a>
             <span class="">style</span>
@@ -555,6 +612,127 @@
             
 <dt>
     <div class="nameContainer">
+        <h4 class="name" id="_render">
+            <a class="share-icon" href="#_render"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                _render
+            </span>
+            <span class="signature">(renderer)</span>
+            
+            <span class="access-signature">protected</span>
+            
+            
+        </h4>
+    
+        
+        <div class="tag-source">
+            <a href="-_Users_mattkarl_GitHub_pixijs_pixi-html-text_src_index.js.html#line215">index.js:215</a>
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Renders the object using the WebGL renderer</p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>renderer</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">PIXI.Renderer</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The renderer</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
         <h4 class="name" id="destroy">
             <a class="share-icon" href="#destroy"><span class="glyphicon glyphicon-link"></span></a>
             <span class="">
@@ -569,7 +747,7 @@
     
         
         <div class="tag-source">
-            <a href="-_Users_mattkarl_GitHub_pixijs_pixi-html-text_src_index.js.html#line283">index.js:283</a>
+            <a href="-_Users_mattkarl_GitHub_pixijs_pixi-html-text_src_index.js.html#line281">index.js:281</a>
         </div>
         
     </div>
@@ -708,7 +886,7 @@
     
         
         <div class="tag-source">
-            <a href="-_Users_mattkarl_GitHub_pixijs_pixi-html-text_src_index.js.html#line255">index.js:255</a>
+            <a href="-_Users_mattkarl_GitHub_pixijs_pixi-html-text_src_index.js.html#line253">index.js:253</a>
         </div>
         
     </div>
@@ -851,127 +1029,6 @@
             
 <dt>
     <div class="nameContainer">
-        <h4 class="name" id="render">
-            <a class="share-icon" href="#render"><span class="glyphicon glyphicon-link"></span></a>
-            <span class="">
-                render
-            </span>
-            <span class="signature">(renderer)</span>
-            
-            
-            
-            
-        </h4>
-    
-        
-        <div class="tag-source">
-            <a href="-_Users_mattkarl_GitHub_pixijs_pixi-html-text_src_index.js.html#line217">index.js:217</a>
-        </div>
-        
-    </div>
-
-    
-</dt>
-<dd>
-    
-    
-    <div class="description">
-        <p>Renders the object using the WebGL renderer</p>
-    </div>
-    
-
-    
-    
-    
-    
-    
-        
-
-<table class="params">
-    <thead>
-	<tr>
-		
-		<th>Name</th>
-		
-		
-		<th>Type</th>
-		
-		
-		
-		<th class="last">Description</th>
-	</tr>
-	</thead>
-	
-	<tbody>
-	
-	
-        <tr>
-            
-                <td class="name"><code>renderer</code></td>
-            
-            
-            <td class="type">
-            
-                
-<span class="param-type">PIXI.Renderer</span>
-
-
-            
-            </td>
-            
-            
-            
-            <td class="description last">
-                
-                <p>The renderer</p></td>
-        </tr>
-	
-	
-	</tbody>
-</table>
-    
-    
-    
-<dl class="details">
-    
-        
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-</dl>
-
-    
-    
-
-    
-
-    
-    
-    
-    
-    
-    
-    
-</dd>
-
-        
-            
-<dt>
-    <div class="nameContainer">
         <h4 class="name" id="updateText">
             <a class="share-icon" href="#updateText"><span class="glyphicon glyphicon-link"></span></a>
             <span class="">
@@ -986,7 +1043,7 @@
     
         
         <div class="tag-source">
-            <a href="-_Users_mattkarl_GitHub_pixijs_pixi-html-text_src_index.js.html#line65">index.js:65</a>
+            <a href="-_Users_mattkarl_GitHub_pixijs_pixi-html-text_src_index.js.html#line67">index.js:67</a>
         </div>
         
     </div>
@@ -1125,7 +1182,7 @@ text if the Text isn't dirty and the function is called.</p></td>
 
         <footer class="content-size">
             <div class="footer">
-                Documentation generated by <a target="_blank" href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> on Mon Apr 06 2020 10:41:39 GMT-0700 (Pacific Daylight Time)
+                Documentation generated by <a target="_blank" href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> on Mon Apr 06 2020 11:44:46 GMT-0700 (Pacific Daylight Time)
             </div>
         </footer>
     </div>
