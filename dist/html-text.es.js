@@ -1,6 +1,6 @@
 /*!
  * @pixi/text-html - v1.0.0
- * Compiled Mon, 06 Apr 2020 18:44:45 UTC
+ * Compiled Mon, 06 Apr 2020 18:56:02 UTC
  *
  * @pixi/text-html is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
