@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PixiJS HTMLText</title>
+    
+    <meta name="description" content="API Documentation for HTMLText for PixiJS" />
+    
+        <meta name="keywords" content="PixiJS, Text, canvas, rendering, typography, CSS, SVG" />
+        <meta name="keyword" content="PixiJS, Text, canvas, rendering, typography, CSS, SVG" />
+    
+    
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,700" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/main.css">
+
+    
+    <script>
+    var config = {"monospaceLinks":false,"cleverLinks":false,"applicationName":"PixiJS HTMLText","meta":{"title":"PixiJS HTMLText","description":"API Documentation for HTMLText for PixiJS","keyword":"PixiJS, Text, canvas, rendering, typography, CSS, SVG"},"linenums":true,"default":{"outputSourceFiles":true}};
+    </script>
+    
+
+    
+</head>
+<body>
+<div id="wrap" class="clearfix">
+    
+<div class="navigation">
+    <h3 class="applicationName"><a href="index.html">PixiJS HTMLText</a></h3>
+    <button id="menuToggle" class="btn btn-link btn-lg menu-toggle">
+        <span class="glyphicon glyphicon-menu-hamburger"></span>
+    </button>
+    <div class="search">
+        <input id="search" type="text" class="form-control input-md" placeholder="Search...">
+    </div>
+    <ul class="list">
+    
+    
+        <li class="item" data-name="PIXI.HTMLText">
+            <span class="title  ">
+                
+                
+                    <a href="PIXI.HTMLText.html">PIXI.HTMLText</a>
+                
+            </span>
+            
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.HTMLText#height"><a href="PIXI.HTMLText.html#height">height</a></li>
+            
+                <li class="parent " data-name="PIXI.HTMLText#style"><a href="PIXI.HTMLText.html#style">style</a></li>
+            
+                <li class="parent " data-name="PIXI.HTMLText#text"><a href="PIXI.HTMLText.html#text">text</a></li>
+            
+                <li class="parent " data-name="PIXI.HTMLText#width"><a href="PIXI.HTMLText.html#width">width</a></li>
+            
+            </ul>
+            
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li class="parent  " data-name="PIXI.HTMLText#destroy"><a href="PIXI.HTMLText.html#destroy">destroy</a></li>
+            
+                <li class="parent  " data-name="PIXI.HTMLText#getLocalBounds"><a href="PIXI.HTMLText.html#getLocalBounds">getLocalBounds</a></li>
+            
+                <li class="parent  " data-name="PIXI.HTMLText#render"><a href="PIXI.HTMLText.html#render">render</a></li>
+            
+                <li class="parent  " data-name="PIXI.HTMLText#updateText"><a href="PIXI.HTMLText.html#updateText">updateText</a></li>
+            
+            </ul>
+            
+            <ul class="events itemMembers">
+            
+            </ul>
+            
+        </li>
+    
+    </ul>
+</div>
+
+    <div class="main">
+        <h1 class="page-title" data-filename="index.html">Index</h1>
+        
+
+
+    
+
+
+    <h3> </h3>
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <section>
+        <article class="readme content-size"><h1>PixiJS HTMLText</h1>
+<p>An alternative to <code>PIXI.Text</code>, but has some distinct advantages:</p>
+<ul>
+<li>Supports PixiJS v5+</li>
+<li>Works in Canvas or WebGL rendering</li>
+<li>Supports HTML tags for styling such as <code>&lt;strong&gt;</code>, or <code>&lt;em&gt;</code>, as well as <code>&lt;span style=&quot;&quot;&gt;</code></li>
+<li>Better support for emojis and other HTML layout features, better compatibility with CSS line-height and letter-spacing.</li>
+</ul>
+<p>Disadvantages:</p>
+<ul>
+<li>Performance is on-par with <code>PIXI.Text</code>, that is to say slow for redrawing</li>
+<li>Only works with browsers that support <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa">btoa</a>, e.g., no IE 9 support</li>
+</ul>
+<h2>Install</h2>
+<pre class="prettyprint source lang-bash"><code>npm install @pixi/text-html
+</code></pre>
+<pre class="prettyprint source lang-bash"><code>yarn add @pixi/text-html
+</code></pre>
+<h2>Usage</h2>
+<pre class="prettyprint source lang-js"><code>import { HTMLText } from '@pixi/text-html';
+import { TextStyle } from '@pixi/text';
+
+// Can use the TextStyle class found in @pixi/text
+const style = new TextStyle({ fontSize: 20 });
+
+// Make a new HTMLText object
+const text = new HTMLText(&quot;Hello World&quot;, style);
+</code></pre></article>
+    </section>
+
+
+
+
+
+
+        
+
+        <footer class="content-size">
+            <div class="footer">
+                Documentation generated by <a target="_blank" href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> on Mon Apr 06 2020 10:41:39 GMT-0700 (Pacific Daylight Time)
+            </div>
+        </footer>
+    </div>
+</div>
+<script>prettyPrint();</script>
+<script src="scripts/main.js"></script>
+
+
+</body>
+</html>
